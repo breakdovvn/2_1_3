@@ -10,7 +10,7 @@ public class AnimalsCage {
     private Timer timer;
 
     @Autowired
-    public AnimalsCage(@Qualifier("dog") Animal animal, @Qualifier("timer") Timer timer) {
+    public AnimalsCage(@Qualifier("dog") Animal animal, Timer timer) {
         this.animal = animal;
         this.timer = timer;
     }

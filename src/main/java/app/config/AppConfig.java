@@ -10,12 +10,5 @@ import org.springframework.stereotype.Component;
 @Configuration
 @ComponentScan(basePackages = "app")
 public class AppConfig {
-    @Bean
-    public Dog dog() {
-        return new Dog();
-    }
-    @Bean
-    public Timer timer() {
-        return new Timer();
-    }
+
 }
